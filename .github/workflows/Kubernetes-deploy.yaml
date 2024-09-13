@@ -1,4 +1,4 @@
-# Deploy to AWS EKS workflow
+# Deploy to AWS EKS workflows
 name: "Deploy Docker Container into AWS EKS and Fargate"
 
 on:
