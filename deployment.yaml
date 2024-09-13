@@ -1,4 +1,4 @@
-#manifest file
+#manifest files
 apiVersion: apps/v1
 kind: Deployment
 metadata:
