@@ -15,7 +15,7 @@ resource "aws_instance" "instance" {
   ]
 }
 
-#instance creation
+#instance creations
 #instance 2
 
 #instance 4
