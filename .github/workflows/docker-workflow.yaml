@@ -1,0 +1,26 @@
+name: Build and Push Docker Image to Docker Hub, Provision Infrastructure in AWS, and Deploy Docker container in AWS EKS
+
+on:
+  push:
+    paths:
+      - 'Dockerfile'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Build and Push Docker image
+      env:
+        DOCKER_BUILDKIT: 1
+        DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
+      run: |
+        docker build -t purna88836/ml-house-price-image:v1 .
+        echo $DOCKER_HUB_PASSWORD | docker login -u purna88836 --password-stdin
+        docker push purna88836/ml-house-price-image:v1
