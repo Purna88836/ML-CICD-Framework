@@ -2,19 +2,22 @@
 Repository Management Request
 =============================
 
+.. image:: _static/repository_icon.png
+   :alt: Repository Management Icon
+   :align: center
+   :scale: 70%
+
 This guide explains how data scientists can request **new repositories** or **synchronize existing repositories** using GitHub Issues.
 
 ---
 
-🚀 **How to Submit a Repository Management Request**
+📝 **How to Submit a Repository Management Request**
 =============================================
 
-Follow these steps to create a new request:
-
-1️⃣ **Open the GitHub Issues Page**  
+→ **Step 1: Open the GitHub Issues Page**  
    - Click [here](https://github.com/YOUR-ORG/YOUR-CLIENT-REPO/issues) to go to the Issues section.
 
-2️⃣ **Create a New Issue**  
+→ **Step 2: Create a New Issue**  
    - Click on the **"New Issue"** button.  
    - Select **"Repo Management Form"** from the available templates.
 
@@ -23,7 +26,7 @@ Follow these steps to create a new request:
    :align: center
    :scale: 70%
 
-3️⃣ **Fill Out the Issue Form**  
+→ **Step 3: Fill Out the Issue Form**  
    - Provide the **Repository Name** (new or existing).
    - Select the **Request Type**:
      - `Create a New Repository`
@@ -36,10 +39,10 @@ Follow these steps to create a new request:
    :align: center
    :scale: 70%
 
-4️⃣ **Submit the Request**  
+→ **Step 4: Submit the Request**  
    - Click **Submit new issue**.
 
-5️⃣ **Request Processing**  
+→ **Step 5: Request Processing**  
    - Your request will be reviewed by the **CICD Team**.  
    - Once processed, they will update the issue and take necessary actions.
 
@@ -59,4 +62,3 @@ Follow these steps to create a new request:
 --------------------
 - [GitHub Issues Documentation](https://docs.github.com/en/issues)
 - [CI/CD Team Guidelines](https://your-org-cicd-docs.com)
-                          
